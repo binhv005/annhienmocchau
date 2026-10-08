@@ -55,26 +55,26 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#2C392D] selection:bg-[#285d3f] selection:text-white relative">
-      {/* Botanical Watercolor Background Motifs (Ẩn bớt trên mobile để giao diện thông thoáng, tinh gọn) */}
+      {/* Botanical Watercolor Background Motifs (Họa tiết mờ nhẹ, tinh tế và sang trọng) */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-        {/* Top-right motif: Thu nhỏ và làm mờ nhẹ trên mobile, hiển thị rõ trên desktop */}
+        {/* Top-right motif */}
         <div 
-          className="absolute -top-8 -right-10 w-[240px] h-[320px] md:w-[520px] md:h-[680px] opacity-[0.22] md:opacity-[0.55] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform rotate-6 contrast-110"
+          className="absolute -top-8 -right-10 w-[240px] h-[320px] md:w-[520px] md:h-[680px] opacity-[0.10] md:opacity-[0.25] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform rotate-6"
           style={{ backgroundImage: 'url("/images/111090476907d214664a421bb1b4df70.jpg")' }}
         />
-        {/* Middle-left motif: Ẩn trên mobile */}
+        {/* Middle-left motif */}
         <div 
-          className="hidden md:block absolute top-[28%] -left-16 w-[540px] h-[720px] opacity-[0.50] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform -rotate-6 contrast-110"
+          className="hidden md:block absolute top-[28%] -left-16 w-[540px] h-[720px] opacity-[0.22] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform -rotate-6"
           style={{ backgroundImage: 'url("/images/111090476907d214664a421bb1b4df70.jpg")' }}
         />
-        {/* Middle-right motif: Ẩn trên mobile */}
+        {/* Middle-right motif */}
         <div 
-          className="hidden lg:block absolute top-[55%] -right-16 w-[520px] h-[700px] opacity-[0.50] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform rotate-12 scale-x-[-1] contrast-110"
+          className="hidden lg:block absolute top-[55%] -right-16 w-[520px] h-[700px] opacity-[0.22] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform rotate-12 scale-x-[-1]"
           style={{ backgroundImage: 'url("/images/111090476907d214664a421bb1b4df70.jpg")' }}
         />
-        {/* Lower-left motif: Ẩn trên mobile */}
+        {/* Lower-left motif */}
         <div 
-          className="hidden md:block absolute top-[78%] -left-20 w-[520px] h-[680px] opacity-[0.48] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform -rotate-12 contrast-110"
+          className="hidden md:block absolute top-[78%] -left-20 w-[520px] h-[680px] opacity-[0.20] mix-blend-multiply bg-contain bg-no-repeat pointer-events-none transform -rotate-12"
           style={{ backgroundImage: 'url("/images/111090476907d214664a421bb1b4df70.jpg")' }}
         />
       </div>
